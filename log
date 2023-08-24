@@ -30,3 +30,9 @@ ju., 24 de ago. de 2023 16:41:02:
  tests:  2|4
 total_score: 20/70
 cc1530d
+ju., 24 de ago. de 2023 16:48:45: 
+ list.c | 7 ++++++-
+ 1 file changed, 6 insertions(+), 1 deletion(-)
+ tests:  3|4
+total_score: 25/70
+6b7515c
