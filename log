@@ -2,3 +2,9 @@ ju., 24 de ago. de 2023 16:16:24:
  tests:  0|6
 total_score: 0/70
 2791ebc
+ju., 24 de ago. de 2023 16:24:49: 
+ list.c | 9 +++++++--
+ 1 file changed, 7 insertions(+), 2 deletions(-)
+ tests:  1|5
+total_score: 10/70
+c1fc4e6
