@@ -98,3 +98,14 @@ list.c:69:1: error: control reaches end of non-void function [-Werror=return-typ
 cc1.exe: all warnings being treated as errors
 Compilation failed
 b3e96b4
+sá., 26 de ago. de 2023 19:39:43: 
+ list.c | 3 +--
+ 1 file changed, 1 insertion(+), 2 deletions(-)
+In file included from test.c:5:0:
+list.c: In function 'prevList':
+list.c:68:1: error: control reaches end of non-void function [-Werror=return-type]
+ }
+ ^
+cc1.exe: all warnings being treated as errors
+Compilation failed
+2a226cd
