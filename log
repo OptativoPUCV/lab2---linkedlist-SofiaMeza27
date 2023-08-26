@@ -65,3 +65,14 @@ ju., 24 de ago. de 2023 17:08:08:
  tests:  6|3
 total_score: 35/70
 888bc73
+sá., 26 de ago. de 2023 19:28:23: 
+ list.c | 4 +++-
+ 1 file changed, 3 insertions(+), 1 deletion(-)
+In file included from test.c:5:0:
+list.c: In function 'lastList':
+list.c:61:1: error: control reaches end of non-void function [-Werror=return-type]
+ }
+ ^
+cc1.exe: all warnings being treated as errors
+Compilation failed
+16540c8
