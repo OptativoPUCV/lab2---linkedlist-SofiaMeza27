@@ -183,3 +183,17 @@ list.c:137:1: error: control reaches end of non-void function [-Werror=return-ty
 cc1.exe: all warnings being treated as errors
 Compilation failed
 48e6c73
+sá., 26 de ago. de 2023 20:14:42: 
+ list.c | 9 +++++++++
+ 1 file changed, 9 insertions(+)
+In file included from test.c:5:0:
+list.c: In function 'popCurrent':
+list.c:125:11: error: unused variable 'data' [-Werror=unused-variable]
+     void *data = list -> current -> data;
+           ^~~~
+list.c:146:1: error: control reaches end of non-void function [-Werror=return-type]
+ }
+ ^
+cc1.exe: all warnings being treated as errors
+Compilation failed
+6f9846e

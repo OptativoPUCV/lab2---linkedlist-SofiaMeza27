@@ -134,6 +134,15 @@ void * popCurrent(List * list)
     {
         list -> head = nextNode;
     }
+
+    if(nextNode)
+    {
+        nextNode -> prev = prevNode;
+    }
+    else
+    {
+        list -> tail = prevNode;
+    }
 }
 
 void cleanList(List * list) {
