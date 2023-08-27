@@ -143,6 +143,8 @@ void * popCurrent(List * list)
     {
         list -> tail = prevNode;
     }
+
+    free(list -> current);
 }
 
 void cleanList(List * list) {
