@@ -145,6 +145,8 @@ void * popCurrent(List * list)
     }
 
     free(list -> current);
+    list -> current = nextNode;
+    return data;
 }
 
 void cleanList(List * list) {
