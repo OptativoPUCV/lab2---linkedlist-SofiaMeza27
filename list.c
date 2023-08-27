@@ -125,6 +125,15 @@ void * popCurrent(List * list)
     void *data = list -> current -> data;
     Node  *prevNode = list -> current -> prev;
     Node  *nextNode = list -> current -> next;
+
+    if(prevNode)
+    {
+        prevNode -> next = nextNode;
+    }
+    else
+    {
+        list -> head = nextNode;
+    }
 }
 
 void cleanList(List * list) {
